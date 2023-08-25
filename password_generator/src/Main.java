@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main  {
     public  static  void main(String [] args){
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number: ");
         int digit = input.nextInt();
         String lower_cases = "qwertyuiopasdfghjklzxcvbnm";
         String upper_cases="QWERTYUIOPASDFGHJKLZXCVBNM";
@@ -25,7 +26,6 @@ public class Main  {
             }
         }
         System.out.println(password);
-        System.out.flush();
 
     }
 }
